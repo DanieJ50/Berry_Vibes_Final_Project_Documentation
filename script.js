@@ -1,1 +1,0 @@
-const bar=document.getElementById("progressBar");window.addEventListener("scroll",()=>{const h=document.documentElement.scrollHeight-innerHeight;bar.style.width=(h>0?scrollY/h*100:0)+"%"},{passive:true});
